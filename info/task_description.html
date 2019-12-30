@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+
+<p>
+    In a given array the last element should become the first one. Empty array or array with only one element should stay the same
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+    <strong>Input: </strong> {% if interpreter.slug == "js-node" %}Array{% else %}Itarable{% endif %}.
+</p>
+
+<p>
+    <strong>Output: </strong> {% if interpreter.slug == "js-node" %}Array{% else %}Itarable{% endif %}. 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Example:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">replaceLast([2, 3, 4, 1]) == [1, 2, 3, 4]
+replaceLast([1]) == [1]
+</pre>
+{% else %}
+<pre class="brush: python">replace_last([2, 3, 4, 1]) == [1, 2, 3, 4]
+replace_last([1]) == [1]
+</pre>
+{% endif %}
+</div>
+

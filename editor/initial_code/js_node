@@ -1,0 +1,21 @@
+"use strict";
+
+function replaceLast(a) {
+    // your code here
+    return undefined;
+}
+
+var assert = require('assert');
+
+if (!global.is_checking) {
+    console.log('Example:');
+    console.log(replaceLast([2, 3, 4, 1]));
+
+    // These "asserts" are used for self-checking
+    assert.deepEqual(replaceLast([2, 3, 4, 1]), [1, 2, 3, 4]);
+    assert.deepEqual(replaceLast([1]), [1]);
+    assert.deepEqual(replaceLast([]), []);
+
+    console.log("Coding complete? Click 'Check' to earn cool rewards!");
+}
+    
