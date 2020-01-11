@@ -1,8 +1,8 @@
 "use strict";
 
-function replaceLast(a) {
+function replaceLast(items) {
     // your code here
-    return undefined;
+    return items;
 }
 
 var assert = require('assert');
