@@ -25,11 +25,15 @@
 
 {% if interpreter.slug == "js-node" %}
 <pre class="brush: javascript">replaceLast([2, 3, 4, 1]) == [1, 2, 3, 4]
+replaceLast([1, 2, 3, 4]) == [4, 1, 2, 3]
 replaceLast([1]) == [1]
+replaceLast([]) == []
 </pre>
 {% else %}
 <pre class="brush: python">replace_last([2, 3, 4, 1]) == [1, 2, 3, 4]
+replace_last([1, 2, 3, 4]) == [4, 1, 2, 3]
 replace_last([1]) == [1]
+replace_last([]) == []
 </pre>
 {% endif %}
 </div>
